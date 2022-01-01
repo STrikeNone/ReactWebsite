@@ -90,7 +90,7 @@ function Home() {
               Welcome to the main page of my first ever React project! After
               self learning React and Js for a week i decided to embark on this
               project to create my own "Website" for GitHub to practice what I
-              have been learning.
+              have been learning. (Updated)
             </Typography>
           </div>
           <div className={`${classes.grid} ${classes.bigSpace}`}>
