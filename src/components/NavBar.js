@@ -106,7 +106,7 @@ function NavBar() {
         variant="h6"
         className={classes.menuItem}
         onClick={() => {
-          window.location = "./about";
+          window.location = ".#/about";
         }}
       >
         About
@@ -114,10 +114,10 @@ function NavBar() {
       <Typography variant="h6" className={classes.dropbtn}>
         <div className={classes.dropbtn}>Module Review</div>
         <div className={classes.dropdown_content}>
-          <a className={classes.display_item} href="./year1_review">
+          <a className={classes.display_item} href=".#/year1_review">
             Year 1
           </a>
-          <a className={classes.display_item} href="./year2_review">
+          <a className={classes.display_item} href=".#/year2_review">
             Year 2
           </a>
         </div>

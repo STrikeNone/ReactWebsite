@@ -9,19 +9,17 @@ import About from "./components/About";
 import ModuleReview from "./components/ModuleReview";
 import ModuleReview2 from "./components/ModuleReview2";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router basename="/ReactWebsite/">
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/year1_review" element={<ModuleReview />} />
-        <Route exact path="/year2_review" element={<ModuleReview2 />} />
-      </Routes>
-    </Router>
-  </React.StrictMode>,
+  <Router basename="/">
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/year1_review" element={<ModuleReview />} />
+      <Route path="/year2_review" element={<ModuleReview2 />} />
+    </Routes>
+  </Router>,
   document.getElementById("root")
 );
 

@@ -112,7 +112,7 @@ function Home() {
               }
               title="About Me"
               btnTitle="Show me More"
-              link="./about"
+              link="./#/about"
             />
             <Grid
               icon={
@@ -122,7 +122,7 @@ function Home() {
               }
               title="Module Review"
               btnTitle="Show me More"
-              link="./year1_review"
+              link="./#/year1_review"
             />
           </div>
           <div className={`${classes.grid} ${classes.littleSpace}`}>
