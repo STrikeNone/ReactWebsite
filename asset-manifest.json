@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ReactWebsite/static/css/main.aaa6f213.css",
-    "main.js": "/ReactWebsite/static/js/main.cfb8aa93.js",
+    "main.js": "/ReactWebsite/static/js/main.5ac0c087.js",
     "static/js/787.d565ef3f.chunk.js": "/ReactWebsite/static/js/787.d565ef3f.chunk.js",
     "static/media/new_zealand.jpg": "/ReactWebsite/static/media/new_zealand.d7d9811ca09dfd949d15.jpg",
     "static/media/man.svg": "/ReactWebsite/static/media/man.2d0aff700b78d1957471959e751c21b2.svg",
     "index.html": "/ReactWebsite/index.html",
     "main.aaa6f213.css.map": "/ReactWebsite/static/css/main.aaa6f213.css.map",
-    "main.cfb8aa93.js.map": "/ReactWebsite/static/js/main.cfb8aa93.js.map",
+    "main.5ac0c087.js.map": "/ReactWebsite/static/js/main.5ac0c087.js.map",
     "787.d565ef3f.chunk.js.map": "/ReactWebsite/static/js/787.d565ef3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa6f213.css",
-    "static/js/main.cfb8aa93.js"
+    "static/js/main.5ac0c087.js"
   ]
 }
