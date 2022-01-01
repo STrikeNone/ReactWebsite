@@ -16,7 +16,7 @@ const styles = makeStyles({
 });
 
 function Grid(props) {
-  const { icon, title, btnTitle } = props;
+  const { icon, title, btnTitle, link } = props;
   const classes = styles();
   return (
     <div className={classes.wrapper}>
@@ -24,7 +24,12 @@ function Grid(props) {
       <Typography className={classes.item} variant="h5">
         {title}
       </Typography>
-      <div className={classes.item}>
+      <div
+        className={classes.item}
+        onClick={() => {
+          window.location = link;
+        }}
+      >
         <CustomBtn txt={btnTitle} />
       </div>
     </div>

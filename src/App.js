@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import {
@@ -48,10 +47,12 @@ const styles = makeStyles({
     textAlign: "center",
   },
   bigSpace: {
-    marginTop: "5rem",
+    marginTop: "1rem",
+    backgroundColor: "#F5F5F5",
   },
   littleSpace: {
     marginTop: "2.5rem",
+    fontSize: 17.5,
   },
   grid: {
     display: "flex",
@@ -69,12 +70,17 @@ function App() {
         <NavBar />
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-            Welcome to my first page
+            What is this?
           </Typography>
         </div>
         <div className={classes.wrapper}>
-          <Typography variant="h5" className={classes.bigSpace} color="primary">
-            Description
+          <Typography
+            variant="h5"
+            className={classes.littleSpace}
+            color="primary"
+          >
+            This is the main page of my GitHub pages as part of my first project
+            in learning React
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
