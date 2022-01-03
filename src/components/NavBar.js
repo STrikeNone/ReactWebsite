@@ -141,7 +141,13 @@ function NavBar() {
       >
         LinkedIn
       </Typography>
-      <CustomBtn txt="Contact Me" />
+      <div
+        onClick={() => {
+          window.location = "https://forms.gle/94b1UGeV91A7HcUz6";
+        }}
+      >
+        <CustomBtn txt="Contact Me" />
+      </div>
     </Toolbar>
   );
 }

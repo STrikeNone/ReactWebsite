@@ -161,16 +161,28 @@ function About() {
             <h5 className={classes.centerHeader}>Education</h5>
             <ul className={classes.centerDescription}>
               <li style={{ fontSize: 17 }}>
-                2021: Nanyang Technological University -- CGPA: 4.95
+                2021 - Ongoing: Nanyang Technological University -- CGPA: 4.95
               </li>
               <li style={{ fontSize: 17, marginTop: 5 }}>
-                2016: St Andrews Junior College -- 90 Rank Points
+                2016 - 2017: St Andrews Junior College -- 90 Rank Points
               </li>
               <li style={{ fontSize: 17, marginTop: 5 }}>
-                2012: Maris Stella High School -- L1R5 10
+                2012 - 2015: Maris Stella High School -- L1R5 10
               </li>
             </ul>
             <h5 className={classes.centerHeader}>Skills</h5>
+            <p
+              style={{
+                textAlign: "justify",
+                marginTop: -15,
+                fontSize: 17,
+              }}
+            >
+              Python Programming, C/C++, Flutter (App Development), Java,
+              HTML(Basic), ReactJs, MySQL, Machine Learning, Computer Vision,
+              Deep Learning
+            </p>
+            <h5 className={classes.centerHeader}>Others</h5>
             <p
               style={{
                 textAlign: "justify",
@@ -179,9 +191,13 @@ function About() {
                 fontSize: 17,
               }}
             >
-              Python Programming, C/C++, Flutter (App Development), Java,
-              HTML(Basic), ReactJs, MySQL, Machine Learning, Computer Vision,
-              Deep Learning
+              Uni notes:{" "}
+              <a
+                href="https://drive.google.com/drive/folders/1TKm-WrIipy9DSt7olbG_56s4yhQ_bqyU?usp=sharing"
+                target="_blank"
+              >
+                g-drive
+              </a>
             </p>
           </div>
         </div>

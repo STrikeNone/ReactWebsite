@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import ModuleReview from "./components/ModuleReview";
 import ModuleReview2 from "./components/ModuleReview2";
+import Notes from "./components/Notes";
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="/about" element={<About />} />
       <Route path="/year1_review" element={<ModuleReview />} />
       <Route path="/year2_review" element={<ModuleReview2 />} />
+      <Route path="/notes" element={<Notes />} />
     </Routes>
   </Router>,
   document.getElementById("root")
